@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/new_post"
+        android:icon="@drawable/ic_new_post"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/sign_out"
+        android:icon="@drawable/ic_sign_out"
+        android:title="Sign out"
+        android:visible="true"
+        app:showAsAction="always" />
+</menu>

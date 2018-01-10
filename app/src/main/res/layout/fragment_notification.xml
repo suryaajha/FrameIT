@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pict.s2k.frameit.fragments.NotificationFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="No New Notifications"
+        android:textAlignment="center"
+        android:textColor="@color/gray_52"
+        android:textSize="18sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="13dp" />
+
+    <ListView
+        android:id="@+id/notifcations_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</RelativeLayout>

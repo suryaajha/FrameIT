@@ -1,0 +1,14 @@
+1.Piracy
+2.360 view
+3.Portfolio
+4.My Profile - my posts -gridview and listview
+5.Chatting
+6.Buy
+7.Notifications
+8.Image Compression ###DONE###
+9.Post delete
+10.Facebook Auth
+11.Google Assistant Integration
+12.Events
+13.Auction
+14.UI Enhancements

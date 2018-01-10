@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <EditText
+        android:id="@+id/edt_otp_1"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:background="@drawable/gradient_otp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="1"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/dark_blue"
+        android:textSize="28sp"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/edt_mobile_number"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/edt_otp_2"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edt_otp_1"
+        android:layout_alignBottom="@+id/edt_otp_1"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/edt_otp_1"
+        android:background="@drawable/gradient_otp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="1"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/dark_blue"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/edt_otp_3"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edt_otp_2"
+        android:layout_alignBottom="@+id/edt_otp_2"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/edt_otp_2"
+        android:background="@drawable/gradient_otp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="1"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/dark_blue"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/edt_otp_4"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edt_otp_3"
+        android:layout_alignBottom="@+id/edt_otp_3"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/edt_otp_3"
+        android:background="@drawable/gradient_otp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="1"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/dark_blue"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/edt_otp_5"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edt_otp_4"
+        android:layout_alignBottom="@+id/edt_otp_4"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/edt_otp_4"
+        android:background="@drawable/gradient_otp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="1"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/dark_blue"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/edt_otp_6"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edt_otp_5"
+        android:layout_alignBottom="@+id/edt_otp_5"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/edt_otp_5"
+        android:background="@drawable/gradient_otp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="1"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/dark_blue"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btn_resend"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edt_otp_1"
+        android:layout_below="@+id/edt_otp_1"
+        android:layout_marginTop="28dp"
+        android:textAllCaps="false"
+        android:textColor="@color/blue"
+        android:text="Resend OTP" />
+
+    <TextView
+        android:id="@+id/txt_verify_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify your mobile number"
+        android:textColor="@color/gray_52"
+        android:textSize="24sp"
+        android:layout_below="@+id/img_otp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <ImageView
+        android:id="@+id/img_otp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_otp"
+        android:layout_marginTop="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/edt_mobile_number"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLength="10"
+        android:layout_marginTop="16dp"
+        android:inputType="phone"
+        android:layout_below="@+id/txt_verify_heading"
+        android:layout_toStartOf="@+id/edt_otp_5"><requestFocus/></EditText>
+
+    <TextView
+        android:id="@+id/txt_country_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/edt_mobile_number"
+        android:layout_toStartOf="@+id/edt_mobile_number"
+        android:text="+91"
+        android:textSize="14sp"
+        android:paddingTop="12dp"
+        android:layout_alignBottom="@+id/edt_mobile_number" />
+
+    <Button
+        android:id="@+id/btn_send"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edt_mobile_number"
+        android:layout_alignStart="@+id/edt_otp_5"
+        android:text="Send Code"
+        android:onClick="sendCode"
+        android:background="@drawable/gradient_button"
+        android:textAllCaps="false"
+        android:textColor="@color/blue" />
+
+</RelativeLayout>
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pict.s2k.frameit.subactivities.VerifyNumber">
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="Confirm"
+        android:onClick="confirmAccount"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="13dp"
+        app:layout_constraintTop_toBottomOf="@+id/edt_otp" />
+
+    <EditText
+        android:id="@+id/edt_mobile_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Enter your mobile number"
+        android:inputType="number"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp" />
+
+    <Button
+        android:id="@+id/btn_verify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="Verify"
+        android:onClick="verifyAccount"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="9dp"
+        app:layout_constraintTop_toBottomOf="@+id/edt_mobile_number" />
+
+    <EditText
+        android:id="@+id/edt_otp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:hint="Enter OTP here"
+        android:inputType="number"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="74dp"
+        app:layout_constraintTop_toBottomOf="@+id/edt_mobile_number" />
+
+    <Button
+        android:id="@+id/btn_resend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:onClick="resend"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@+id/edt_otp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toRightOf="@+id/btn_confirm" />
+
+</android.support.constraint.ConstraintLayout>-->

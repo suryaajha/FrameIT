@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "305621342279",
+    "firebase_url": "https://frameit-ebf6d.firebaseio.com",
+    "project_id": "frameit-ebf6d",
+    "storage_bucket": "frameit-ebf6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305621342279:android:c99b40a62c5c57f8",
+        "android_client_info": {
+          "package_name": "pict.s2k.frameit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305621342279-nmo1jijf1h72gkm96vpeml4d7gohqtl1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pict.s2k.frameit",
+            "certificate_hash": "104523fad127f8090b1b9475ad55f33b6e8a1f7f"
+          }
+        },
+        {
+          "client_id": "305621342279-qtnvj5a7nc5fl78740fa3et5f0kics3u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pict.s2k.frameit",
+            "certificate_hash": "384fde13c617001e87bcc05c6622dd4c9ef7e347"
+          }
+        },
+        {
+          "client_id": "305621342279-158n8gpvd2ni5bts63bcqj18c6sipd9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD41faoiIvlqDcHutP4D-GrTGj27rU97UQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305621342279-158n8gpvd2ni5bts63bcqj18c6sipd9l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

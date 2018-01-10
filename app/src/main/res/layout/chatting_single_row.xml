@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/chatting_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <!--<com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/profile_image_left"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="3"
+            fresco:roundAsCircle="true"
+            fresco:placeholderImage="@drawable/ic_user"/>-->
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="12dp"
+            android:src="@drawable/arrow_bg2"/>
+
+        <TextView
+            android:id="@+id/chatting_text_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="50dp"
+            android:background="@drawable/gradient_chat"
+            android:padding="16dp"
+            android:text="Android charting application xml ui design. Android charting application xml ui design tutorial with example. Android charting application xml ui design. Android charting application xml ui design. "
+            android:textColor="#FFF"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="60dp"
+        android:id="@+id/chatting_right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/chatting_left"
+        android:layout_alignParentEnd="true"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/chatting_text_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_chat"
+            android:padding="16dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:elevation="1dp"
+            android:text="Android charting application xml ui design tutorial with example. Android charting application xml ui design tutorial with example. Android charting application xml ui design tutorial with example. Android charting application xml ui design tutorial with example."
+            android:textColor="#FFF" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toEndOf="@id/chatting_text_right"
+            android:layout_marginLeft="-40dp"
+            android:src="@drawable/arrow_bg1" />
+
+        <!--<com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/profile_image_right"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="3"
+            fresco:roundAsCircle="true"
+            fresco:placeholderImage="@drawable/ic_user"/>-->
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
